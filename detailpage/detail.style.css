@@ -6,14 +6,22 @@ body {
 }
 
 .image-container {
-  width: 80%; /* 부모 요소의 너비를 설정 (예: 80% 또는 고정 픽셀) */
-  max-width: 800px; /* 최대 너비 설정 (이 너비 이상으로 커지지 않음) */
-  margin: 0 auto; /* 가운데 정렬 */
+  width: 90%;
+  max-width: 860px;
+  margin: 0 auto;
   border: 1px solid #ddd;
   padding: 10px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
 }
+
+/* .image-container img {
+  width: 50%; 
+  height: auto; 
+  display: block; 
+} */
+/* 이미지 컨테이너 스타일 */
 
 /* 핵심 반응형 이미지 CSS */
 .responsive-image {
