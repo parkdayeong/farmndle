@@ -24,6 +24,28 @@ header {
   margin-bottom: 20px;
 }
 
+.gnb {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.gnb li {
+  list-style: none;
+}
+.gnb a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 1.2em;
+}
+.gnb a:hover {
+  font-weight: 600;
+  color: #007bff; /* 링크 색상 변경 */
+}
+
 .image-container {
   width: 90%;
   max-width: 860px;
